@@ -6,10 +6,17 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "5.0.0-alpha1",
+    "http-proxy-middleware": "^1.0.6",
+    "install": "^0.13.0",
+    "node-sass": "^5.0.0",
+    "popper.js": "1.16.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
