@@ -1,5 +1,5 @@
-import './App.css';
-import { Main } from './components/main'
+import './styles/App.css';
+import { Main } from './components/leaderboard'
 
 function App() {
   return (

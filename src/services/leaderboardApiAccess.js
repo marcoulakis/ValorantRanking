@@ -1,9 +1,8 @@
 import {  useEffect, useState } from 'react'
 import axios from "axios"
 
-const ApiResponse = () => {
-  const riotKey = 'RGAPI-176d9a96-013e-4898-bebd-43126dce8516';
-  
+const LeaderboardApiAccess = () => {
+  const riotKey = process.env.REACT_APP_API_KEY;
   const defaultState ={
     isSet: false
   }
@@ -11,8 +10,6 @@ const ApiResponse = () => {
   const [leaderboards, setLeaderboards] = useState(defaultState)
 
   const urlOfContent = '/val/content/v1/contents?locale=pt-BR&api_key=' + riotKey;
-
-  console.log(leaderboards)
   
   useEffect( () => {
       fetchData();
@@ -59,4 +56,4 @@ const ApiResponse = () => {
   }
 }
 
-export { ApiResponse };
+export { LeaderboardApiAccess };
