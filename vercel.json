@@ -1,5 +1,5 @@
 {
     "redirects": [
-      { "source": "/val/", "destination": "https://br.api.riotgames.com" }
+      { "source": "/val/:url", "destination": "https://br.api.riotgames.com/val/:url" }
     ]
 }
