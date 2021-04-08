@@ -11,7 +11,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-const allowCors = fn =&gt; async (req, res) =&gt; {
+const allowCors = fn => async (req, res) => {
   res.setHeader('Access-Control-Allow-Credentials', true)
   res.setHeader('Access-Control-Allow-Origin', '*')
   // another common pattern
@@ -28,7 +28,7 @@ const allowCors = fn =&gt; async (req, res) =&gt; {
   return await fn(req, res)
 }
 
-const handler = (req, res) =&gt; {
+const handler = (req, res) => {
   const d = new Date()
   res.end(d.toString())
 }
