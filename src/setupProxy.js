@@ -7,6 +7,5 @@ module.exports = function(app) {
             target: 'https://br.api.riotgames.com',
             changeOrigin: true,
         })
-        );
-    
+    );
 };

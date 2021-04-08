@@ -1,5 +1,4 @@
 import { LeaderboardApiAccess } from '../../services/leaderboardApiAccess'
-import { Link } from "react-router-dom";
 
 const LeaderboardApiResponse = () => {
 
@@ -18,8 +17,6 @@ const LeaderboardApiResponse = () => {
                 <div className="fw-bold">Ranked Rating: {player.rankedRating}</div>
                 <div className="fw-bold">Wins: {player.numberOfWins}</div>
                 <div className="fw-bold">Competitive Tier: {player.competitiveTier}</div>
-
-
               </li>
           ))}
       </ul>
