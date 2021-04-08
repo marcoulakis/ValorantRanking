@@ -3,6 +3,7 @@ import axios from "axios"
 
 const LeaderboardApiAccess = () => {
   const riotKey = process.env.REACT_APP_API_KEY;
+  console.log(process.env)
   const defaultState ={
     isSet: false
   }
