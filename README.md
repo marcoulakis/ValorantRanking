@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Atention!!!
+
+Add a .env file on root folder of the project and set the riot api key to the variable `REACT_APP_API_KEY`
+
 ## Available Scripts
 
 In the project directory, you can run:
