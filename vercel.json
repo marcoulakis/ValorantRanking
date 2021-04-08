@@ -1,7 +1,4 @@
 {
-    "redirects": [
-      { "source": "/val/content/v1/contents", "destination": "https://br.api.riotgames.com/val/content/v1/contents" }
-    ],
     "headers": [
         {
           "source": "/(.*)",
@@ -12,5 +9,8 @@
             { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version" }
           ]
         }
-      ]
+    ],
+    "redirects": [
+      { "source": "/val/content/v1/contents", "destination": "https://br.api.riotgames.com/val/content/v1/contents" }
+    ]
 }
