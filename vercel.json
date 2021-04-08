@@ -1,6 +1,5 @@
-"rewrites": [
-    {
-        "source": "/val/,
-        "destination": "https://br.api.riotgames.com",
-    }
-]
+{
+    "redirects": [
+      { "source": "/val/", "destination": "https://br.api.riotgames.com" }
+    ]
+}
