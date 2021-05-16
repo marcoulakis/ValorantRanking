@@ -1,6 +1,6 @@
 import { LeaderboardApiAccess } from '../../services/leaderboardApiAccess'
 
-const LeaderboardApiResponse = () => {
+const LeaderboardList = () => {
 
   const leaderboardItem = LeaderboardApiAccess();
 
@@ -27,4 +27,4 @@ const LeaderboardApiResponse = () => {
 );
 }
 
-export { LeaderboardApiResponse };
+export { LeaderboardList };

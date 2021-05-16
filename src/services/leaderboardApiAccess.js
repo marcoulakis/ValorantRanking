@@ -17,11 +17,11 @@ const LeaderboardApiAccess = () => {
     
   async function fetchData(){
     if(!content.isSet){
-      await apiRequest(urlOfContent, setContent);
+      apiRequest(urlOfContent, setContent);
     }else{
       const activeAct = await findActiveAct();
       const urlOfLeaderboard = await generateUrlOfLeaderboard(activeAct);
-      await apiRequest(urlOfLeaderboard, setLeaderboards);
+      apiRequest(urlOfLeaderboard, setLeaderboards);
     }
   }
 
