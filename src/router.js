@@ -1,18 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
-
 
 const AppRouter = () => (
   <BrowserRouter>
-    <Switch> 
-        <Route path='/' exact={true} component={App} />                
-        <Route component={() => {
-            return (
-                <div>Not Found: 404</div>
-            )
-        }} />
-    </Switch>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="*" element={<div>Not Found: 404</div>} />
+    </Routes>
   </BrowserRouter>
 );
 
