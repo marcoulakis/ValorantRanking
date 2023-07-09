@@ -1,5 +1,16 @@
 # Valorant Ranking
-This project is a Valorant ranking application that allows users to view their ranking in the game. It utilizes the Riot Games API to fetch player data and display the ranking information.
+
+## Overview
+
+
+ <a href="#screenshot">
+    <img src="https://raw.githubusercontent.com/marcoulakis/myWallet/main/.github/images/screenshot.png" alt="Scrennshot-of-Home-dark" height="400" align="right"/>
+  </a>
+
+This project is a Valorant Ranking web application that enables users to view their game ranking. It utilizes the Riot Games API to fetch player data and display the ranking information.
+
+I developed this project for a workshop that I conducted with the objective of teaching the basics of React.js to high school students at a technical school in São Paulo, Brazil.
+
 
 ## Prerequisites
 Before running the project, make sure to add a .env file to the root folder of the project and set the Riot API key to the variable `REACT_APP_API_KEY`. This key is necessary to authenticate API requests and retrieve the required player data.
