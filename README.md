@@ -10,9 +10,8 @@
 
 This project is a Valorant Ranking web application that enables users to view their game ranking. It utilizes the Riot Games API to fetch player data and display the ranking information.
 
-I developed this project for a workshop that I conducted with the objective of teaching the basics of React.js to high school students at a technical school in São Paulo, Brazil.
+I developed this project for a workshop that I conducted with the objective of teaching the basics of React.js to high school students at a technical school in São Paulo, Brazil.\
 
-<br>\
 <br>
 
 ## Prerequisites
