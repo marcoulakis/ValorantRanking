@@ -1,6 +1,8 @@
-## Atention!!!
+# Valorant Ranking
+This project is a Valorant ranking application that allows users to view their ranking in the game. It utilizes the Riot Games API to fetch player data and display the ranking information.
 
-Add a .env file on root folder of the project and set the riot api key to the variable `REACT_APP_API_KEY`
+## Prerequisites
+Before running the project, make sure to add a .env file to the root folder of the project and set the Riot API key to the variable `REACT_APP_API_KEY`. This key is necessary to authenticate API requests and retrieve the required player data.
 
 ## Available Scripts
 
@@ -39,33 +41,27 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+## Deployment
+To deploy the Valorant Ranking application, follow the steps below:
+
+1. Build the application using the yarn build command. This will create the optimized production build in the build folder.
+
+2. Deploy the contents of the build folder to a web server or hosting platform of your choice.
+
+3. Ensure that the environment variables are properly configured in the deployed environment, including the Riot API key.
+
+4. Access the deployed application through the appropriate URL to view the Valorant rankings.
+
+>**note**
+>Please note that the deployment process may vary
+>depending on your hosting platform and specific requirements.
+>Make sure to consult the deployment documentation or support
+>resources provided by your chosen hosting solution for detailed instructions.
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# valorant-ranking" 
