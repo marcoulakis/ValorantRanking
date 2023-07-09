@@ -53,11 +53,11 @@ To deploy the Valorant Ranking application, follow the steps below:
 
 4. Access the deployed application through the appropriate URL to view the Valorant rankings.
 
->**note**
->Please note that the deployment process may vary
->depending on your hosting platform and specific requirements.
->Make sure to consult the deployment documentation or support
->resources provided by your chosen hosting solution for detailed instructions.
+>**Note**
+>the deployment process may vary depending on your hosting
+>platform and specific requirements. Make sure to consult the deployment 
+>documentation or support resources provided by your chosen hosting 
+>solution for detailed instructions.
 
 
 ## Learn More
