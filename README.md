@@ -13,7 +13,6 @@ This project is a Valorant Ranking web application that enables users to view th
 I developed this project for a workshop that I conducted with the objective of teaching the basics of React.js to high school students at a technical school in São Paulo, Brazil.
 
 <br>\
-<br>\
 <br>
 
 ## Prerequisites
