@@ -4,7 +4,7 @@
 
 
  <a href="#screenshot">
-    <img src="https://raw.githubusercontent.com/marcoulakis/ValorantRanking/main/public/screenshot.png" alt="Scrennshot-of-Home-dark" height="400" align="right"/>
+    <img src="https://raw.githubusercontent.com/marcoulakis/ValorantRanking/main/public/screenshot.png" alt="Scrennshot-of-Home-dark" height="300" align="right"/>
   </a>
 
 This project is a Valorant Ranking web application that enables users to view their game ranking. It utilizes the Riot Games API to fetch player data and display the ranking information.
